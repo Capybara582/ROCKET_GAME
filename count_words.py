@@ -4,6 +4,6 @@ def capybara(arg1,arg2):
     count=0
     arg2=arg2.split(' ')
     for word in arg2:
-        if arg1 == word:
+        if arg1 == word.lower():
             count+=1
     return count
